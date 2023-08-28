@@ -1,4 +1,4 @@
-import { Home, Profile, SignIn, SignUp } from "@/pages";
+import { Home, Profile, Aboutus, SignIn, SignUp } from "@/pages";
 import {
   HomeIcon,
   UserCircleIcon,
@@ -9,35 +9,29 @@ import {
 
 export const routes = [
   {
-    icon: HomeIcon,
     name: "home",
     path: "/home",
     element: <Home />,
   },
   {
-    icon: UserCircleIcon,
-    name: "profile",
+    name: "Clinic",
     path: "/profile",
     element: <Profile />,
   },
   {
-    icon: ArrowRightOnRectangleIcon,
+    name: "About US",
+    path: "/aboutus",
+    element: <Aboutus />,
+  },
+  {
     name: "Sign In",
     path: "/sign-in",
     element: <SignIn />,
   },
   {
-    icon: UserPlusIcon,
     name: "Sign Up",
     path: "/sign-up",
     element: <SignUp />,
-  },
-  {
-    icon: DocumentTextIcon,
-    name: "Docs",
-    href: "https://www.material-tailwind.com/docs/react/installation",
-    target: "_blank",
-    element: "",
   },
 ];
 
