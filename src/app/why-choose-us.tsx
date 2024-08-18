@@ -11,7 +11,7 @@ import {
   UsersIcon,
 } from "@heroicons/react/24/solid";
 
-import BackgroundCard from "@/components/background-card";
+import BackgroundCard from "@/src/components/background-card";
 
 interface OptionProps {
   icon: React.ElementType;

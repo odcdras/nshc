@@ -20,7 +20,7 @@ function Hero() {
           color="white"
           className="mt-6 mb-10 w-full md:max-w-full lg:max-w-2xl"
         >
-          We believe that each individual is unique and therefore we aim at addressing the patient's unique listening needs to help them hear again.
+          We believe that each individual is unique and therefore we aim at addressing the patient unique listening needs to help them hear again.
           Our expert and experienced professionals will guide you through most suitable Hearing and Speech needs.
         </Typography>
         <div>          
